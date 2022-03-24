@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* background: white; */
+    background-image: url("../img/bg.png");
+    color: #2d5880;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Playfair Display', 'serif';
+    overflow: hidden;
+}
+
+/*Navbar*/
+.navbar{
+    display:grid;
+    grid-template-columns: repeat(4, 400px 1fr 1fr 1fr);
+    margin-top: 20px;
+    grid-gap: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #31518a;
+}
+
+li:nth-child(1){
+    margin-right: 200px;
+}
+li:nth-child(2){
+    margin-left: 500px;
+}
+.nav-link{
+    text-align: center;
+    padding: 10px 30px;
+    padding-top: 5px;
+    border-radius: 50px;
+}
+
+.nav-link:not(:first-of-type){
+    background-color: #cee3fa;
+    transition: transform .3s;
+
+}
+
+
+.nav-link:not(:first-of-type):hover{
+    background-color: #8198e0;
+    cursor: pointer;
+    transform: translateY(5px);
+}
+
+/* navbar end*/
+
+/*hero section*/
+
+.hero-section{
+    display: grid; 
+    grid-template-columns: repeat(2,700px 1fr);
+    align-items: center;
+    
+}
+
+.hero-content{
+    margin-left: 60px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.hero-content h3{
+    margin-top: -35px;
+    color: #a7c3de;
+}
+
+.hero-content hr{
+    width: 130px;
+    margin-left: 0px;
+    margin-top: -10px;
+    border: 1px solid #8198e0;
+}
+
+.hero-content .btn{
+    border:none;
+    outline: none;
+    padding: 15px 45px;
+    background: transparent;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #6e8abc;
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+.hero-content .btn:hover{
+    transform: translateY(5px);
+}
+
+.hero-content .btn1{
+    background: #bdd5ef;
+    transition: .3s;
+    color: white;
+}
+.hero-content .btn1:hover{
+    background: #8198e0;
+    transition: .3s;
+    color: #2d5880;
+}
+.hero-content .btn2{
+    border: 2px solid #bdd5ef;
+    margin-left: 10px;
+    transition: .3s;
+    color: #2d5880;
+}
+.hero-content .btn2:hover{
+    background:#8198e0;
+    transition: .3s;
+    color: white;
+}
+.hero-img{
+    padding-top: 100px;
+    }
+

@@ -15,18 +15,21 @@
     line-height: 44px;
     text-align: center;
     letter-spacing: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color:#2c6975;
 }
 .info p{
     padding: 0px 30px 20px;
     line-height: 24px;
 }
 .comment-section{
-    background-image: linear-gradient(to top, rgb(106,155,253), rgb(174,228,255));
+    background-image: linear-gradient(to bottom, #2c6975,#68b39f, #cedfcc, #e0ecde);
     padding: 10px 10px 50px 10px;
 }
 .comments{
     width: 70%;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     margin: 50px 0;
     padding: 30px 20px;
     border-radius: 9px;
@@ -39,7 +42,7 @@
 .comments h3{
     text-align: left;
     font-size: 28px;
-    color: #033495;
+    color: #2c6975;
     text-transform: uppercase;
     letter-spacing: 5px;
     padding-bottom: 20px;
@@ -54,23 +57,32 @@
     box-sizing: border-box;
     outline: none;
     font-size: 18px;
-    border: 1px solid blue;
+    border: 1px solid #68b39f;
     color: #000;
+    resize: none;
 }
 .comments button{
+    text-transform: uppercase;
     margin: 10px 0;
     border: none;
-    background-color: #6a9cfd;
+    background-color: #68b39f;
     padding: 10px;
     font-size: 18x;
     border-radius: 3px;
     color: white;
-    width: 20%;
+    width: 30%;
     transition: 0.5s;
 }
 .comments button:hover{
-    background: #aee4ff;
+    background: #cedfcc;
+    color: #68b39f;
     cursor: pointer;
     transition: 0.5s;
+    font-weight: bold;
 }
-
+.public-comments{
+padding: 30px 20px;
+}
+.audience{
+    padding: 30px 80px;
+}

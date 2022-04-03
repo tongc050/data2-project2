@@ -9,16 +9,17 @@
         href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100;800&family=Playfair+Display&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style2.css">
-
+    <link rel="stylesheet" href="modal.css">
     <title>Document</title>
 </head>
 
 <body>
+
     <nav class="navbar">
         <img src="../img/logo2.jpg" class="logo" alt="">
         <ul class="links-container">
-            <li class="link-item"><a href="#" class="link">home</a></li>
             <li class="link-item"><a href="editor.html" class="link">editor</a></li>
+            <li class="link-item"><a href="blog.html" class="link"> blogs</a></li>
         </ul>
     </nav>
 
@@ -29,10 +30,19 @@
                 blog
                 <span class="no-fill">writing</span>
             </h1>
-            <a href="editor.html" class="btn">write a blog</a>
+            <button class="modal-btn">Start</a>
+        </div>
+
+        <div class="modal-bg">
+            <div class="modal">
+                <h2>Login</h2>
+                <input type="username" placeholder="username">
+                <input type="password" placeholder="password">
+                <button>Login</button>
+                <span class="modal-close">x</span>
+            </div>
         </div>
     </header>
-
     <section class="blogs-section">
         <div class="blog-card">
             <img src="../img/mountain.jpg" class="blog-image" alt="">
@@ -49,6 +59,7 @@
             <a href="post.html" class="btn dark">read</a>
         </div>
     </section>
+    <script src="modal.js"></script>
 </body>
 
 </html>

@@ -146,6 +146,10 @@
     padding: 10px 15px;
 }
 
+.date {
+    font-size: 12px;
+}
+
 @media (max-width: 600px) {
     .comments button {
         width: 50%;
